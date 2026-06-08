@@ -1,16 +1,40 @@
-# React + Vite
+README for Notes App
+# Simple Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Notes App created using React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Home page
+- Add Note page
+- About page
+- Add and display notes
+- Routing using React Router
+- State management using useState
+- Props for passing data
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- React Router
+- Vite
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+## Project Concept
+
+This app demonstrates components, props, state management, and routing in React.
+
+<img width="1366" height="725" alt="Screenshot (194)" src="https://github.com/user-attachments/assets/d5f96294-d975-458e-bc51-0afccc55c1a8" />
